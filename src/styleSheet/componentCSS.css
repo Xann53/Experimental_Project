@@ -29,6 +29,110 @@
     z-index: -2;
 }
 
+.button1 {
+    padding: 10px;
+    background: rgb(230, 224, 219);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 43, 44);
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: rgba(43, 43, 44);
+    outline-width: 1px;
+    outline-offset: -2px;
+    transition-timing-function: ease-out;
+    transition-duration: 0.21s;
+}
+.button1:hover {
+    padding: 11px;
+    background: rgb(43, 43, 44);
+    color: rgb(82, 167, 223);
+    outline-color: rgba(82, 167, 223);
+    outline-width: 1px;
+    outline-offset: 2px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.21s;
+}
+
+.button2 {
+    padding: 10px;
+    background: rgb(230, 224, 219);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 43, 44);
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: rgba(43, 43, 44);
+    outline-width: 1px;
+    outline-offset: -2px;
+    transition-timing-function: ease-out;
+    transition-duration: 0.21s;
+}
+.button2:hover {
+    padding: 11px;
+    background: rgb(43, 43, 44);
+    color: rgb(223, 82, 148);
+    outline-color: rgb(223, 82, 148);
+    outline-width: 1px;
+    outline-offset: 2px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.21s;
+}
+
+.button3 {
+    padding: 10px;
+    background: rgb(230, 224, 219);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 43, 44);
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: rgba(43, 43, 44);
+    outline-width: 1px;
+    outline-offset: -2px;
+    transition-timing-function: ease-out;
+    transition-duration: 0.21s;
+}
+.button3:hover {
+    padding: 11px;
+    background: rgb(43, 43, 44);
+    color: rgb(87, 223, 82);
+    outline-color: rgb(87, 223, 82);
+    outline-width: 1px;
+    outline-offset: 2px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.21s;
+}
+
+.button4 {
+    padding: 10px;
+    background: rgb(230, 224, 219);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(43, 43, 44);
+    border-radius: 20px;
+    outline-style: solid;
+    outline-color: rgba(43, 43, 44);
+    outline-width: 1px;
+    outline-offset: -2px;
+    transition-timing-function: ease-out;
+    transition-duration: 0.21s;
+}
+.button4:hover {
+    padding: 11px;
+    background: rgb(43, 43, 44);
+    color: rgb(223, 186, 82);
+    outline-color: rgb(223, 186, 82);
+    outline-width: 1px;
+    outline-offset: 2px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.21s;
+}
+
 
 
 /* NOT SO IMPORTANT STUFF BUT STILL IMPORTANT */
