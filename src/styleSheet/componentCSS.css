@@ -26,19 +26,33 @@
     z-index: -1;
 }
 .layering2 {
+    z-index: -99;
+}
+.blurryImg {
+    background: url("../images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
     z-index: -2;
+    border-radius: 20px;
 }
 
 .button1 {
     padding: 10px;
-    background: rgb(230, 224, 219);
+    background: rgb(43, 43, 44);
     border: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(43, 43, 44);
+    color: rgb(82, 167, 223);
     border-radius: 20px;
     outline-style: solid;
-    outline-color: rgba(43, 43, 44);
+    outline-color: rgba(82, 167, 223);
     outline-width: 1px;
     outline-offset: -2px;
     transition-timing-function: ease-out;
@@ -46,25 +60,28 @@
 }
 .button1:hover {
     padding: 11px;
-    background: rgb(43, 43, 44);
-    color: rgb(82, 167, 223);
+    background: rgb(82, 167, 223);
+    color: rgb(43, 43, 44);
     outline-color: rgba(82, 167, 223);
     outline-width: 1px;
     outline-offset: 2px;
     transition-timing-function: ease-in;
     transition-duration: 0.21s;
+    font-size: 15px;
+    margin-bottom: -1px;
+    margin-top: -1px;
 }
 
 .button2 {
     padding: 10px;
-    background: rgb(230, 224, 219);
+    background: rgb(43, 43, 44);
     border: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: rgb(43, 43, 44);
+    color: rgb(223, 82, 148);
     border-radius: 20px;
     outline-style: solid;
-    outline-color: rgba(43, 43, 44);
+    outline-color: rgba(223, 82, 148);
     outline-width: 1px;
     outline-offset: -2px;
     transition-timing-function: ease-out;
@@ -72,18 +89,21 @@
 }
 .button2:hover {
     padding: 11px;
-    background: rgb(43, 43, 44);
-    color: rgb(223, 82, 148);
+    background: rgb(223, 82, 148);
+    color: rgb(43, 43, 44);
     outline-color: rgb(223, 82, 148);
     outline-width: 1px;
     outline-offset: 2px;
     transition-timing-function: ease-in;
     transition-duration: 0.21s;
+    font-size: 15px;
+    margin-bottom: -1px;
+    margin-top: -1px;
 }
 
 .button3 {
     padding: 10px;
-    background: rgb(230, 224, 219);
+    background: rgb(201, 236, 199);
     border: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -109,7 +129,7 @@
 
 .button4 {
     padding: 10px;
-    background: rgb(230, 224, 219);
+    background: rgb(236, 235, 199);
     border: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -125,8 +145,8 @@
 .button4:hover {
     padding: 11px;
     background: rgb(43, 43, 44);
-    color: rgb(223, 186, 82);
-    outline-color: rgb(223, 186, 82);
+    color: rgb(240, 229, 80);
+    outline-color: rgb(240, 229, 80);
     outline-width: 1px;
     outline-offset: 2px;
     transition-timing-function: ease-in;
@@ -156,11 +176,44 @@ p.body {
     text-align: justify;
 }
 div.style {
-    position: absolute;
+    position: relative;
     left: 20%;
-    top: 10%;
+    top: 100px;
     padding: 50px;
     align-items: center;
     width: 50%;
     border-radius: 20px;
+}
+
+.transparent1 {
+    display: flex;
+    flex-direction: column;
+    background: rgba(46, 49, 44, 0.15);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+    overflow: hidden;
+}
+div.style1 {
+    flex-direction: column;
+    position: relative;
+    left: 20%;
+    top: 150px;
+    padding: 50px 50px;
+    align-items: center;
+    vertical-align: middle;
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 300px;
+}
+div.style2 {
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+button.bSize1 {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 140px;
+    width: 45%;
 }

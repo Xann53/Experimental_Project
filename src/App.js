@@ -1,6 +1,6 @@
 import "./styleSheet/componentCSS.css";
 import Body from "./components/transparentDiv";
-import mountain from './images/mountain.jpg';
+import mountain from './images/purple.jpg';
 import SampleButton from "./components/buttons";
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
     <>
       <div>
         <Body />
-        <div class="gradient fitScreen layering1" />
         <SampleButton />
+        <div class="gradient fitScreen layering1" />
         <img src={mountain} class="fitScreen layering2"/>
       </div>
     </>
